@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>dotnet-ASBToSQSRouter-284C5650-0634-4371-B66B-A66F3FD4D9D3</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+        <PackageReference Include="NServiceBus.AmazonSQS" Version="5.3.1" />
+        <PackageReference Include="NServiceBus.Router" Version="3.9.0" />
+        <PackageReference Include="NServiceBus.Transport.AzureServiceBus" Version="1.9.0" />
+    </ItemGroup>
+</Project>

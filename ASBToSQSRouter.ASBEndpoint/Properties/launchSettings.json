@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "ASBToSQSRouter.ASBEndpoint": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "ASB_CONNECTION_STRING": "your-asb-connection-string"
+      }
+    }
+  }
+}

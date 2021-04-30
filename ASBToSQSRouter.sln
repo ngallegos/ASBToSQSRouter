@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASBToSQSRouter", "ASBToSQSRouter\ASBToSQSRouter.csproj", "{BA27F71B-753E-4FC2-8C94-49788B86464F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASBToSQSRouter.SQSEndpoint", "ASBToSQSRouter.SQSEndpoint\ASBToSQSRouter.SQSEndpoint.csproj", "{11E5A777-D758-4D86-BAC2-EF3D8F10E267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASBToSQSRouter.ASBEndpoint", "ASBToSQSRouter.ASBEndpoint\ASBToSQSRouter.ASBEndpoint.csproj", "{C8BA14AF-AF31-4FF5-85EA-88BA723A00D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASBToSQSRouter.Messages", "ASBToSQSRouter.Messages\ASBToSQSRouter.Messages.csproj", "{8CE9C8C0-F186-4CDD-8361-21C628D3A0C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA27F71B-753E-4FC2-8C94-49788B86464F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA27F71B-753E-4FC2-8C94-49788B86464F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA27F71B-753E-4FC2-8C94-49788B86464F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA27F71B-753E-4FC2-8C94-49788B86464F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E5A777-D758-4D86-BAC2-EF3D8F10E267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E5A777-D758-4D86-BAC2-EF3D8F10E267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E5A777-D758-4D86-BAC2-EF3D8F10E267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E5A777-D758-4D86-BAC2-EF3D8F10E267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BA14AF-AF31-4FF5-85EA-88BA723A00D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BA14AF-AF31-4FF5-85EA-88BA723A00D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BA14AF-AF31-4FF5-85EA-88BA723A00D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BA14AF-AF31-4FF5-85EA-88BA723A00D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE9C8C0-F186-4CDD-8361-21C628D3A0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE9C8C0-F186-4CDD-8361-21C628D3A0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE9C8C0-F186-4CDD-8361-21C628D3A0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE9C8C0-F186-4CDD-8361-21C628D3A0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
